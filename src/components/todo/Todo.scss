@@ -1,0 +1,46 @@
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: #a2c6f9;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+    &_title {
+        font-size: 20px;
+        font-weight: 500;
+        color: #3a7bd5;
+    }
+
+    &_icon {
+        display: flex;
+        cursor: pointer;
+
+        &-checked {
+            margin-right: 10px;
+        }
+        
+        &-checked, &-clear {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            font-size: 20px;
+            background-color: white;
+            color: #3a7bd5;
+        }
+    }
+}
+
+.todo-active {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: #a2c6f96c;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
